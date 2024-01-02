@@ -1,15 +1,11 @@
+import java.sql.SQLOutput;
+
 public class Exercises {
 
     public static void main(String[] args){
-        Exercises ex = new Exercises();
-        System.out.println(ex.stringTimes("Hello",5));
+        StringChallengeOne call = new StringChallengeOne();
+        System.out.println(call.stringTimes("hello",4));
     }
-    public String stringTimes(String str, int n) {
-        StringBuilder result = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            result.append(str);
-        }
-        return result.toString();
-    }
+
 
 }
