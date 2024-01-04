@@ -9,9 +9,11 @@ public class CurrencyFormatter {
         String india = NumberFormat.getCurrencyInstance(new Locale("en ", "IN")).format(payment).replace("INR ", "Rs.");
         String china = NumberFormat.getCurrencyInstance(Locale.CHINA).format(payment);
         String france = NumberFormat.getCurrencyInstance(Locale.FRANCE).format(payment);
+        String southAfrica = NumberFormat.getCurrencyInstance(new Locale("en","ZA")).format(payment);
         System.out.println("US: " + us);
         System.out.println("India: " + india);
         System.out.println("China: " + china);
         System.out.println("France: " + france);
+        System.out.println("South Africa: " + southAfrica);
     }
 }
