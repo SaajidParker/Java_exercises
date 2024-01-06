@@ -17,6 +17,9 @@ public class Exercises {
         //Username Validator using REGEX
         UsernameValidator valid = new UsernameValidator();
         valid.validate(1,"SaajidParker");
+        //Creating an array and calling the values added to it
+        FirstArrayExercise firstarray = new FirstArrayExercise();
+        firstarray.arr();
     }
 
 
