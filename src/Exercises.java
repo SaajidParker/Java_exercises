@@ -20,6 +20,11 @@ public class Exercises {
         //Creating an array and calling the values added to it
         FirstArrayExercise firstarray = new FirstArrayExercise();
         firstarray.arr();
+        //Practicing Hashsets
+        HashsetPractice pairsCounter = new HashsetPractice();
+        System.out.println("Enter the number of pairs:");
+        int n = scanner.nextInt();
+        pairsCounter.processPairs(n, scanner);
     }
 
 

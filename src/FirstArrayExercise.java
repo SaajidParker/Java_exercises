@@ -10,7 +10,7 @@ public class FirstArrayExercise {
         for(int i  = 0; i<a.length; i++){
             a[i]= scan.nextInt();
         }
-        scan.close();
+
 
         // Prints each sequential element in array a
         for (int i = 0; i < a.length; i++) {
