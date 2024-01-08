@@ -9,9 +9,17 @@ public class Exercises {
         System.out.println(call.stringTimes("HelloHowAreYou?",3));
         // Day finder in calendar
         DayCalendarFinder find = new DayCalendarFinder();
-        System.out.println(find.findDay(12,8,1999));
+        System.out.println("Let's find out the day of the week you were born:");
+        System.out.println("Please enter the month you were born:");
+        int month = scanner.nextInt();
+        System.out.println("Please enter the day you were born:");
+        int day = scanner.nextInt();
+        System.out.println("Please enter the year you were born:");
+        int year = scanner.nextInt();
+        System.out.println("The day you were born on is a: " + find.findDay(month,day,year));
         //Currency Formatter
         CurrencyFormatter formatting = new CurrencyFormatter();
+        System.out.println("Please enter an amount you want to format:");
         double payment = scanner.nextDouble();
         formatting.Converter(payment);
         //Username Validator using REGEX
