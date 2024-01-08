@@ -1,28 +1,30 @@
 import java.io.*;
 import java.util.*;
 public class TryandCatchPractice {
-        public  void Trycatch() {
+        public  void Trycatch(Scanner sc) {
 
-            Scanner sc = new Scanner(System.in);
+
 
             try {
-
+                System.out.println("Please enter 1st division value:");
                 int x = sc.nextInt();
+                System.out.println("Please enter 2nd division value:");
                 int y = sc.nextInt();
 
-                System.out.println(x/y);
+                System.out.println(x + " / " + y + " = "+ x/y);
+
 
             }
 
             catch (ArithmeticException e ) {
 
-                System.out.println("java.lang.ArithmeticException: / by zero");
+                System.out.println("java.lang.ArithmeticException: cannot divide by zero");
 
             }
 
             catch (InputMismatchException e) {
 
-                System.out.println("java.util.InputMismatchException");
+                System.out.println("Entered an incorrect value type");
 
             }
 

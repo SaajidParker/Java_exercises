@@ -25,6 +25,9 @@ public class Exercises {
         System.out.println("Enter the number of pairs:");
         int n = scanner.nextInt();
         pairsCounter.processPairs(n, scanner);
+        //Try and catch practice for dividing by zero
+        TryandCatchPractice trying = new TryandCatchPractice();
+        trying.Trycatch(scanner);
     }
 
 
