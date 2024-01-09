@@ -36,6 +36,7 @@ public class Exercises {
         //Try and catch practice for dividing by zero
         TryandCatchPractice trying = new TryandCatchPractice();
         trying.Trycatch(scanner);
+        //Practicing converting a double value to whole and fractional parts
     }
 
 
