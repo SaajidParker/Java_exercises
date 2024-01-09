@@ -1,3 +1,5 @@
+import com.sun.security.jgss.GSSUtil;
+
 import java.util.Scanner;
 public class Exercises {
 
@@ -27,6 +29,7 @@ public class Exercises {
         valid.validate(1,"SaajidParker");
         //Creating an array and calling the values added to it
         FirstArrayExercise firstarray = new FirstArrayExercise();
+
         firstarray.arr();
         //Practicing Hashsets
         HashsetPractice pairsCounter = new HashsetPractice();
@@ -37,6 +40,10 @@ public class Exercises {
         TryandCatchPractice trying = new TryandCatchPractice();
         trying.Trycatch(scanner);
         //Practicing converting a double value to whole and fractional parts
+        System.out.println("Please enter a double value:");
+        double value = scanner.nextDouble();
+        MathProblems mathing = new MathProblems();
+        mathing.fractionValue(value);
     }
 
 
