@@ -32,7 +32,7 @@ public class Exercises {
         firstarray.arr();
         //Practicing Hashsets
         HashsetPractice pairsCounter = new HashsetPractice();
-        System.out.println("Enter the number of pairs:");
+        System.out.println("Enter the number of unique pairs to add to hashset:");
         int n = scanner.nextInt();
         pairsCounter.processPairs(n, scanner);
         //Try and catch practice for dividing by zero
