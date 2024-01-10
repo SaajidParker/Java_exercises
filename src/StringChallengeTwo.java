@@ -3,6 +3,7 @@ public class StringChallengeTwo {
 
         //calculate sum of words
         int sumOfWords = a.length() +b.length();
+        System.out.println("The sum of the length of characters of both words combined are:");
         System.out.println(sumOfWords);
 
         // Compare lexicographical order
