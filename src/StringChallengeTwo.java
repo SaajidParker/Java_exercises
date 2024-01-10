@@ -12,8 +12,8 @@ public class StringChallengeTwo {
         System.out.println(lexicographicalComparison);
 
         // Capitalize and print
-        String capitalizedString1 = a.substring(0, 1).toUpperCase() + a.substring(1);
-        String capitalizedString2 = b.substring(0, 1).toUpperCase() + b.substring(1);
+        String capitalizedString1 = a.isEmpty() ? "" : a.substring(0, 1).toUpperCase() + a.substring(1);
+        String capitalizedString2 = b.isEmpty() ? "" : b.substring(0, 1).toUpperCase() + b.substring(1);
         System.out.println("Capitalizing the first letter of the two strings then adding them together in one sentence:");
         System.out.println(capitalizedString1 + " " + capitalizedString2);
     }
