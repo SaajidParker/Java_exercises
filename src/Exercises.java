@@ -54,13 +54,11 @@ public class Exercises {
 
         //Practicing String manipulation and functions
         StringChallengeTwo manipulate = new StringChallengeTwo();
-        System.out.println("Let's input and manipulate two string values:");
+        System.out.println("Let's input and manipulate two string values.");
         System.out.println("Please enter the first word:");
-        String a = scanner.nextLine();
-        // Consume the newline character left in the buffer
-        scanner.nextLine();
+        String a = scanner.next().trim();
         System.out.println("Please enter the second word:");
-        String b = scanner.nextLine();
+        String b = scanner.next().trim();
         manipulate.manipulateString(a,b);
     }
 
