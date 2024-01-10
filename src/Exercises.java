@@ -45,8 +45,10 @@ public class Exercises {
         mathing.fractionValue(value);
         //Practicing String manipulation and functions
         StringChallengeTwo manipulate = new StringChallengeTwo();
-        System.out.println("Lets manipulate two string values");
+        System.out.println("Let's input and manipulate two string values:");
+        System.out.println("Please enter the first word:");
         String a = scanner.nextLine().trim();
+        System.out.println("Please enter the second word:");
         String b = scanner.nextLine().trim();
         manipulate.manipulateString(a,b);
     }
