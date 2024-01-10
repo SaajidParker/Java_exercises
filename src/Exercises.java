@@ -43,6 +43,12 @@ public class Exercises {
         double value = scanner.nextDouble();
         MathProblems mathing = new MathProblems();
         mathing.fractionValue(value);
+        //Practicing String manipulation and functions
+        StringChallengeTwo manipulate = new StringChallengeTwo();
+        System.out.println("Lets manipulate two string values");
+        String a = scanner.nextLine().trim();
+        String b = scanner.nextLine().trim();
+        manipulate.manipulateString(a,b);
     }
 
 
