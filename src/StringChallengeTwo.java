@@ -6,6 +6,7 @@ public class StringChallengeTwo {
         System.out.println(sumOfWords);
 
         // Compare lexicographical order
+        System.out.println("Comparing the two strings to see if the first string is lexicographically greater than the other:");
         String lexicographicalComparison = a.compareTo(b) > 0 ? "Yes" : "No";
         System.out.println(lexicographicalComparison);
 
