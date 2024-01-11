@@ -1,5 +1,3 @@
-import com.sun.security.jgss.GSSUtil;
-
 import java.util.Scanner;
 public class Exercises {
 
@@ -68,6 +66,5 @@ public class Exercises {
         String word = scanner.next();
         palindromeCheck.palindrome(word);
     }
-
 
 }

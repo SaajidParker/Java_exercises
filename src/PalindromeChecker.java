@@ -1,6 +1,5 @@
 import java.lang.*;
-import java.io.*;
-import java.util.*;
+
 public class PalindromeChecker {
     public void palindrome(String word){
         StringBuilder building = new StringBuilder();
