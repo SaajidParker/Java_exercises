@@ -60,6 +60,9 @@ public class Exercises {
         System.out.println("Please enter the second word:");
         String b = scanner.next().trim();
         manipulate.manipulateString(a,b);
+
+        //Palindrome checker
+        PalindromeChecker palindrome = new PalindromeChecker();
     }
 
 
