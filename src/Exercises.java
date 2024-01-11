@@ -62,7 +62,11 @@ public class Exercises {
         manipulate.manipulateString(a,b);
 
         //Palindrome checker
-        PalindromeChecker palindrome = new PalindromeChecker();
+        PalindromeChecker palindromeCheck = new PalindromeChecker();
+        System.out.println("Let's try out this palindrome checker.");
+        System.out.println("Please enter a word to check if it's a palindrome:");
+        String word = scanner.next();
+        palindromeCheck.palindrome(word);
     }
 
 
