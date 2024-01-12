@@ -68,6 +68,10 @@ public class Exercises {
 
         //Prime Number Checker Using BigInteger methods
         PrimeNumberChecker prime = new PrimeNumberChecker();
+        System.out.println("Let's try out this Prime number checker.");
+        System.out.println("Please enter a number you want to check is prime or not:");
+        String pnumber = scanner.next();
+        prime.PrimeCheck(pnumber);
     }
 
 }
