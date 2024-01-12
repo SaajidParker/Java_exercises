@@ -65,6 +65,9 @@ public class Exercises {
         System.out.println("Please enter a word to check if it's a palindrome:");
         String word = scanner.next();
         palindromeCheck.palindrome(word);
+
+        //Prime Number Checker Using BigInteger methods
+        PrimeNumberChecker prime = new PrimeNumberChecker();
     }
 
 }
