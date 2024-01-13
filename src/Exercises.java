@@ -7,7 +7,13 @@ public class Exercises {
 
         // String Challenge
         StringChallengeOne call = new StringChallengeOne();
-        System.out.println(call.stringTimes("HelloHowAreYou?",3));
+        String printing;
+        int numToPrint;
+        System.out.println("Please enter a string:");
+        printing = scanner.next();
+        System.out.println("Please enter the amount of times you want to print the string:");
+        numToPrint = scanner.nextInt();
+        System.out.println(call.stringTimes(printing,numToPrint));
 
         // Day finder in calendar
         DayCalendarFinder find = new DayCalendarFinder();
