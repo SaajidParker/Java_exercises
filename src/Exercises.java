@@ -80,7 +80,14 @@ public class Exercises {
         String pnumber = scanner.next();
         prime.PrimeCheck(pnumber);
 
-
+        //BigInteger Exercise
+        BigIntegerExercise BigInt = new BigIntegerExercise();
+        System.out.println("Let's work with Big Integers.");
+        System.out.println("Please enter the first Big Integer:");
+        BigInteger A = scanner.nextBigInteger();
+        System.out.println("Please enter the second Big Integer:");
+        BigInteger B = scanner.nextBigInteger();
+        BigInt.BigMultiply(A,B);
     }
 
 }
