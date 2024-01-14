@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.math.*;
 public class Exercises {
 
     public static void main(String[] args){
@@ -78,6 +79,8 @@ public class Exercises {
         System.out.println("Please enter a number you want to check is prime or not:");
         String pnumber = scanner.next();
         prime.PrimeCheck(pnumber);
+
+
     }
 
 }
