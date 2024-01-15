@@ -93,13 +93,18 @@ public class Exercises {
         SubstringExercise subbing = new SubstringExercise();
         System.out.println("Let's try out cutting Strings into a substring.");
         System.out.println("Please enter the String you want to use:");
-        String subStringWord = scanner.nextLine();
+        String subStringWord = scanner.next();
         System.out.println("Please enter the starting index of the string you want to cut:");
         int startStringCut = scanner.nextInt();
         System.out.println("Please enter the ending index of the string you want to cut:");
         int endStringCut = scanner.nextInt();
         SubstringExercise substringex = new SubstringExercise();
         substringex.subStringCutter(subStringWord,startStringCut,endStringCut);
+
+        //Inverting Integer numbers in an array
+        InverseNumArrayExercise inverse = new InverseNumArrayExercise();
+        System.out.println("Let's try out this inverting number program.");
+        inverse.inverseArray();
     }
 
 }
