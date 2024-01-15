@@ -93,7 +93,7 @@ public class Exercises {
         SubstringExercise subbing = new SubstringExercise();
         System.out.println("Let's try out cutting Strings into a substring.");
         System.out.println("Please enter the String you want to use:");
-        String subStringWord = scanner.next();
+        String subStringWord = scanner.nextLine();
         System.out.println("Please enter the starting index of the string you want to cut:");
         int startStringCut = scanner.nextInt();
         System.out.println("Please enter the ending index of the string you want to cut:");
