@@ -90,7 +90,6 @@ public class Exercises {
         BigInt.BigMultiply(A,B);
 
         //Substring Exercise
-        SubstringExercise subbing = new SubstringExercise();
         System.out.println("Let's try out cutting Strings into a substring.");
         System.out.println("Please enter the String you want to use:");
         String subStringWord = scanner.next();
