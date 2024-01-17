@@ -104,6 +104,14 @@ public class Exercises {
         InverseNumArrayExercise inverse = new InverseNumArrayExercise();
         System.out.println("Let's try out this inverting number program.");
         inverse.inverseArray();
+
+        //Odd or Even Number Checker
+        OddOrEven checkingEvenOdd = new OddOrEven();
+        System.out.println("Please enter a number to check if it's Even or Odd:");
+        double num = scanner.nextDouble();
+        System.out.println(checkingEvenOdd.oddOrEven(num));
+
+
     }
 
 }
