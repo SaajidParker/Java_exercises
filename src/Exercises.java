@@ -111,7 +111,11 @@ public class Exercises {
         double num = scanner.nextDouble();
         System.out.println(checkingEvenOdd.oddOrEven(num));
 
-
+        //Luck tester with switch case statements
+        SwitchStatementsExercise switching = new SwitchStatementsExercise();
+        System.out.println("Please choose a number 1 or 2:");
+        int x = scanner.nextInt();
+        switching.messages(x);
     }
 
 }
