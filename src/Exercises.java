@@ -116,6 +116,12 @@ public class Exercises {
         System.out.println("Please choose a number 1 or 2:");
         int x = scanner.nextInt();
         switching.messages(x);
+
+        //Count Down using while loop
+        WhileLoopPractice looping = new WhileLoopPractice();
+        System.out.println("Please enter a number to countdown from");
+        x = scanner.nextInt();
+        looping.looping(x);
     }
 
 }
