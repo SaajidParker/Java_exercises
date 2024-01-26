@@ -6,5 +6,9 @@ public class Multidimensional_Array {
         int x = sample[1][0];
         System.out.println(x);
 
+        // We can visualize the rows and columns like this where the first value is the row and second value is the column
+        sample = new int[][]{
+                {1, 2, 3},
+                {4, 5, 6}};
     }
 }
