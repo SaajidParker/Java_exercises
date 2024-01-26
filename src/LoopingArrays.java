@@ -12,6 +12,6 @@ public class LoopingArrays {
         for(int x:ages){
             sum+=x;
         }
-        System.out.println(sum);
+        System.out.println("The sum of the array using a for each loop is: "+sum);
     }
 }
