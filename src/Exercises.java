@@ -5,7 +5,7 @@ public class Exercises {
     public static void main(String[] args){
         //Initializing scanner to be implemented in all the method classes
         Scanner scanner = new Scanner(System.in);
-/*
+
         // String Challenge
         StringChallengeOne call = new StringChallengeOne();
         String printing;
@@ -122,7 +122,7 @@ public class Exercises {
         System.out.println("Please enter a number to countdown from");
         x = scanner.nextInt();
         looping.looping(x);
-*/
+
         //Factorial sum calculator with a for loop
         ForLooping forlooper = new ForLooping();
         System.out.println("Let's try out the factorial calculator.");
