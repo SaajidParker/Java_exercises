@@ -1,5 +1,6 @@
 public class Multidimensional_Array {
     public void superiorArray(){
+        int sum = 0;
         //This is a multidimensional array
         int[][] sample = {{1,2,3},{4,5,6}};
         // To access an element inside a multidimensional array we can use this
@@ -14,10 +15,9 @@ public class Multidimensional_Array {
         // In order to loop over a multidimensional array we need nested for loops
         for(int x = 0; x<sample.length;x++){
             for(int y = 0; y<sample[x].length;y++){
-                int sum = 0;
                 sum += sample[x][y];
-                System.out.println(sum);
             }
         }
+        System.out.println(sum);
     }
 }
