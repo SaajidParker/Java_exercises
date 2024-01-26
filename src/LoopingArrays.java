@@ -6,7 +6,7 @@ public class LoopingArrays {
         for(int x = 0; x<ages.length;x++){
             sum += ages[x];
         }
-        System.out.println(sum);
+        System.out.println("The sum of the array using a for loop with array length is: "+sum);
         sum = 0;
         //Or you can make it a shortcode using for each
         for(int x:ages){
