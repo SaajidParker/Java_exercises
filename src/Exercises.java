@@ -137,7 +137,14 @@ public class Exercises {
 
         //Multidimensional arrays
         Multidimensional_Array multi = new Multidimensional_Array();
-        multi.superiorArray();
+        int [][] multiArray = new int[2][3];
+        for(int x = 0; x < multiArray.length;x++){
+            for (int y = 0; y < multiArray[x].length;y++){
+                System.out.println("Please enter an integer value");
+                multiArray[x][y] = scanner.nextInt();
+            }
+        }
+        multi.superiorArray(multiArray);
     }
 
 }
