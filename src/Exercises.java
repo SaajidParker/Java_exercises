@@ -134,6 +134,10 @@ public class Exercises {
         LoopingArrays looper = new LoopingArrays();
         int [] count = {1,2,3,4,5,6,7,8,9,10};
         looper.arraylooping(count);*/
+
+        //Multidimensional arrays
+        Multidimensional_Array multi = new Multidimensional_Array();
+        multi.superiorArray();
     }
 
 }
