@@ -14,7 +14,9 @@ public class Multidimensional_Array {
         // In order to loop over a multidimensional array we need nested for loops
         for(int x = 0; x<sample.length;x++){
             for(int y = 0; y<sample[x].length;y++){
-                System.out.println(sample[x][y]);
+                int sum = 0;
+                sum += sample[x][y];
+                System.out.println(sum);
             }
         }
     }
