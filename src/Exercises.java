@@ -7,7 +7,7 @@ public class Exercises {
         Scanner scanner = new Scanner(System.in);
 
         // String Challenge
-        StringChallengeOne call = new StringChallengeOne();
+        /*StringChallengeOne call = new StringChallengeOne();
         String printing;
         int numToPrint;
         System.out.println("Please enter a string:");
@@ -133,7 +133,7 @@ public class Exercises {
         //Practicing looping values in an array
         LoopingArrays looper = new LoopingArrays();
         int [] count = {1,2,3,4,5,6,7,8,9,10};
-        looper.arraylooping(count);
+        looper.arraylooping(count);*/
     }
 
 }
