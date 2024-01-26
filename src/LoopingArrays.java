@@ -7,5 +7,11 @@ public class LoopingArrays {
             sum += ages[x];
         }
         System.out.println(sum);
+
+        //Or you can make it a shortcode using for each
+        for(int x:ages){
+            sum+=x;
+        }
+        System.out.println(sum);
     }
 }
