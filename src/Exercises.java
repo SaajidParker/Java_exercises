@@ -130,6 +130,10 @@ public class Exercises {
         int N = scanner.nextInt();
         forlooper.ForLooper(N);
 
+        //Practicing looping values in an array
+        LoopingArrays looper = new LoopingArrays();
+        int [] count = {1,2,3,4,5,6,7,8,9,10};
+        looper.arraylooping(count);
     }
 
 }
