@@ -10,5 +10,8 @@ public class Multidimensional_Array {
         sample = new int[][]{
                 {1, 2, 3},
                 {4, 5, 6}};
+
+        // In order to loop over a multidimensional array we need nested for loops
+
     }
 }
