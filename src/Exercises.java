@@ -146,6 +146,26 @@ public class Exercises {
             }
         }
         multi.superiorArray(multiArray);
+
+        //Area calculator
+        AreaCalculator areaCalc = new AreaCalculator();
+        System.out.println("Let's calculate area of a shape.");
+        System.out.println("Please select a shape: Rectangle, Circle, Triangle:");
+        String shapeAreaChoice = scanner.next();
+
+        double length = 0;
+        double width = 0;
+        double base = 0;
+        double height = 0;
+        double circumference = 0;
+
+        if(shapeAreaChoice.equals("rectangle")){
+            areaCalc.RectangleArea(length,height);
+        } else if (shapeAreaChoice.equals("circle")) {
+            areaCalc.CircleArea();
+        } else if (shapeAreaChoice.equals("triangle")) {
+            areaCalc.TriangleArea();
+        }
     }
 
 }
