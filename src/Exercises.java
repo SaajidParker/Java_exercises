@@ -1,4 +1,3 @@
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 import java.math.*;
 public class Exercises {
@@ -150,15 +149,15 @@ public class Exercises {
 
         //Area calculator
         AreaCalculator areaCalc = new AreaCalculator();
-        double length = 0;
-        double width = 0;
-        double base = 0;
-        double height = 0;
-        double radius = 0;
+        double length;
+        double width;
+        double base;
+        double height;
+        double radius;
         String shapeAreaChoice;
 
         System.out.println("Let's calculate area of a shape.");
-        System.out.println("Please select a shape: Rectangle, Circle, Triangle:");
+        System.out.println("Please select a shape: rectangle, circle, triangle:");
 
         while(true) {
              shapeAreaChoice = scanner.next();
