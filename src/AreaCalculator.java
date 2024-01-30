@@ -8,7 +8,8 @@ public class AreaCalculator {
         System.out.println("The area of the rectangle is: "+ area);
     }
 
-    public void TriangleArea(){
-
+    public void TriangleArea(double b, double h){
+        area = 0.5*(b*h);
+        System.out.println("The area of the triangle is: "+ area);
     }
 }

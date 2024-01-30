@@ -1,3 +1,4 @@
+import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 import java.math.*;
 public class Exercises {
@@ -149,23 +150,45 @@ public class Exercises {
 
         //Area calculator
         AreaCalculator areaCalc = new AreaCalculator();
-        System.out.println("Let's calculate area of a shape.");
-        System.out.println("Please select a shape: Rectangle, Circle, Triangle:");
-        String shapeAreaChoice = scanner.next();
-
         double length = 0;
         double width = 0;
         double base = 0;
         double height = 0;
         double circumference = 0;
+        String shapeAreaChoice;
 
-        if(shapeAreaChoice.equals("rectangle")){
-            areaCalc.RectangleArea(length,height);
-        } else if (shapeAreaChoice.equals("circle")) {
-            areaCalc.CircleArea();
-        } else if (shapeAreaChoice.equals("triangle")) {
-            areaCalc.TriangleArea();
+        System.out.println("Let's calculate area of a shape.");
+        System.out.println("Please select a shape: Rectangle, Circle, Triangle:");
+        while(true) {
+             shapeAreaChoice = scanner.next();
+            if(!shapeAreaChoice.equals("triangle")|| !shapeAreaChoice.equals("rectangle")|| !shapeAreaChoice.equals("circle")){
+                System.out.println("Please choose either rectangle, circle, or triangle:");
+            }else{
+                break;
+            }
         }
-    }
+        if(shapeAreaChoice.equals("rectangle")){
+            System.out.println("Please enter the length of the rectangle: ");
+            length = scanner.nextDouble();
+            System.out.println("Please enter the height of the rectangle: ");
+            height = scanner.nextDouble();
+            areaCalc.RectangleArea(length,height);
 
+        } else if (shapeAreaChoice.equals("circle")) {
+            System.out.println("Please enter the length of the rectangle: ");
+            length = scanner.nextDouble();
+            System.out.println("Please enter the height of the rectangle: ");
+            height = scanner.nextDouble();
+            areaCalc.CircleArea();
+
+        } else if (shapeAreaChoice.equals("triangle")) {
+            System.out.println("Please enter the base of the triangle: ");
+            base = scanner.nextDouble();
+            System.out.println("Please enter the width of the triangle: ");
+            width = scanner.nextDouble();
+            areaCalc.TriangleArea(width,base);
+        }
+
+
+}
 }
