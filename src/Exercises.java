@@ -6,7 +6,7 @@ public class Exercises {
         //Initializing scanner to be implemented in all the method classes
         Scanner scanner = new Scanner(System.in);
 
-    /*    // String Challenge
+        // String Challenge
         StringChallengeOne call = new StringChallengeOne();
         String printing;
         int numToPrint;
@@ -187,7 +187,7 @@ public class Exercises {
                 break;
             }
         }
-*/
+
         MathClasses mathingClasses = new MathClasses();
         System.out.println("Please enter an integer value: ");
         x = scanner.nextInt();
