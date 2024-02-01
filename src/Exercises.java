@@ -189,8 +189,26 @@ public class Exercises {
         }
 
         MathClasses mathingClasses = new MathClasses();
-
-
+        System.out.println("Please enter an integer value: ");
+        x = scanner.nextInt();
+        mathingClasses.absoluteValue(x);
+        System.out.println("Please enter a double value: ");
+        double y =scanner.nextDouble();
+        mathingClasses.ceilingValue(y);
+        mathingClasses.floorValue(y);
+        System.out.println("Please enter two integer numbers:");
+        System.out.println("Integer number 1: ");
+        x = scanner.nextInt();
+        System.out.println("Integer number 2: ");
+        int ye = scanner.nextInt();
+        mathingClasses.maxValue(x,ye);
+        mathingClasses.minValue(x,ye);
+        System.out.println("Let's use the power class in the Math package:");
+        System.out.println("Please enter a number:");
+        x = scanner.nextInt();
+        System.out.println("Please enter the power number:");
+        int power = scanner.nextInt();
+        mathingClasses.powerOfValue(x,power);
 
 
 }
