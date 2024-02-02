@@ -187,7 +187,7 @@ public class Exercises {
                 break;
             }
         }
-
+        //Using the math class functions
         MathClasses mathingClasses = new MathClasses();
         System.out.println("Please enter an integer value: ");
         x = scanner.nextInt();
