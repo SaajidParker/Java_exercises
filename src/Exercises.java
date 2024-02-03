@@ -209,7 +209,7 @@ public class Exercises {
         System.out.println("Please enter the power number:");
         int power = scanner.nextInt();
         mathingClasses.powerOfValue(x,power);
-
+        //Using getters and setters
 
 }
 }
