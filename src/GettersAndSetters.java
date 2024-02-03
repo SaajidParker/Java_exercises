@@ -1,6 +1,6 @@
 public class GettersAndSetters {
     private int age;
-    GettersAndSetters gettersAndSetters = new GettersAndSetters();
+
     public int getAge() {
         // getter method
         return  age;
