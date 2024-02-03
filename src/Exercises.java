@@ -7,7 +7,7 @@ public class Exercises {
         Scanner scanner = new Scanner(System.in);
 
         // String Challenge
-       /* StringChallengeOne call = new StringChallengeOne();
+        StringChallengeOne call = new StringChallengeOne();
         String printing;
         int numToPrint;
         System.out.println("Please enter a string:");
@@ -209,7 +209,7 @@ public class Exercises {
         System.out.println("Please enter the power number:");
         int power = scanner.nextInt();
         mathingClasses.powerOfValue(x,power);
-*/
+
         //Using getters and setters
         System.out.println("Please enter persons' name:");
         String name = scanner.next();
