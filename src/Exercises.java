@@ -218,7 +218,14 @@ public class Exercises {
         GettersAndSetters gettersAndSetters = new GettersAndSetters();
 
         //Setting the age via a Setter method we made
-
+        if(age<0){
+            System.out.println("Invalid age");
+            gettersAndSetters.setAge(0);
+        }else{
+            gettersAndSetters.setAge(age);
+        }
+        System.out.println("Name of person is: "+name);
+        System.out.println("Age of person is: "+gettersAndSetters.getAge());
 
 }
 }
