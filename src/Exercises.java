@@ -214,7 +214,7 @@ public class Exercises {
         int age = scanner.nextInt();
         String name = scanner.next();
         GettersAndSetters gettingstuff = new GettersAndSetters();
-
+        gettingstuff.message(name,age);
 
 }
 }
