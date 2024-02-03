@@ -211,10 +211,10 @@ public class Exercises {
         mathingClasses.powerOfValue(x,power);
 */
         //Using getters and setters
-        System.out.println("Please enter an age to see if it meets requirements:");
-        int age = scanner.nextInt();
         System.out.println("Please enter persons' name:");
         String name = scanner.next();
+        System.out.println("Please enter an age to see if it meets requirements:");
+        int age = scanner.nextInt();
         GettersAndSetters gettingstuff = new GettersAndSetters();
         gettingstuff.message(name,age);
 
