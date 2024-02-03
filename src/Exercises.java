@@ -210,6 +210,7 @@ public class Exercises {
         int power = scanner.nextInt();
         mathingClasses.powerOfValue(x,power);
         //Using getters and setters
+        int age = scanner.nextInt();
 
 }
 }
