@@ -215,8 +215,10 @@ public class Exercises {
         String name = scanner.next();
         System.out.println("Please enter an age to see if it meets requirements:");
         int age = scanner.nextInt();
-        GettersAndSetters gettingstuff = new GettersAndSetters();
-        gettingstuff.message(name,age);
+        GettersAndSetters gettersAndSetters = new GettersAndSetters();
+
+        //Setting the age via a Setter method we made
+
 
 }
 }
