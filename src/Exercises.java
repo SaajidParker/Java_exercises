@@ -218,6 +218,7 @@ public class Exercises {
         GettersAndSetters gettersAndSetters = new GettersAndSetters();
 
         //Setting the age via a Setter method we made
+        //if method to check valid age inserted
         if(age<0){
             System.out.println("Invalid age");
             gettersAndSetters.setAge(0);
