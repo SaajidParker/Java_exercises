@@ -177,7 +177,7 @@ public class Exercises {
                 radius = scanner.nextDouble();
                 areaCalc.CircleArea(radius);
                 break;
-
+                //Implementing breaks for stopping the loop
             } else if (shapeAreaChoice.equals("triangle")) {
                 System.out.println("Please enter the base of the triangle:");
                 base = scanner.nextDouble();
