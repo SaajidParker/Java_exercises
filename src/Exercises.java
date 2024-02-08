@@ -5,7 +5,7 @@ public class Exercises {
     public static void main(String[] args){
         //Initializing scanner to be implemented in all the method classes
         Scanner scanner = new Scanner(System.in);
-
+/*
         // String Challenge
         StringChallengeOne call = new StringChallengeOne();
         String printing;
@@ -62,7 +62,7 @@ public class Exercises {
         System.out.println("Let's input and manipulate two string values.");
         System.out.println("Please enter the first word:");
         String a = scanner.next().trim();
-        System.out.println("Please enter the second word:");
+        System.out.println("Please enter the second w9ord:");
         String b = scanner.next().trim();
         manipulate.manipulateString(a,b);
 
@@ -227,7 +227,7 @@ public class Exercises {
         }
         System.out.println("Name of person is: "+name);
         System.out.println("Age of person is: "+gettersAndSetters.getAge());
-
+*/
         //Encapsulation Exercise
         EncapsulationExample encapsulate = new EncapsulationExample();
         //Asking user for input
