@@ -235,6 +235,7 @@ public class Exercises {
         int ages = scanner.nextInt();
         //setting age to private variable
         encapsulate.setAge(ages);
+        //getting changed variable in the output with getter method
         System.out.println("The age that has been set is: "+encapsulate.getAge());
 
 }
