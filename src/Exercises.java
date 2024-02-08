@@ -230,6 +230,7 @@ public class Exercises {
 
         //Encapsulation Exercise
         EncapsulationExample encapsulate = new EncapsulationExample();
+        //Asking user for input
         System.out.println("Please enter an age:");
         int ages = scanner.nextInt();
         //setting age to private variable
