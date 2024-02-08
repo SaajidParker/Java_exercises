@@ -230,7 +230,10 @@ public class Exercises {
 
         //Encapsulation Exercise
         EncapsulationExample encapsulate = new EncapsulationExample();
+        System.out.println("Please enter an age:");
         int ages = scanner.nextInt();
+        encapsulate.setAge(ages);
+        System.out.println("The age that has been set is: "+encapsulate.getAge());
 
 }
 }
