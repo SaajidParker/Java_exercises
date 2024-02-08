@@ -230,6 +230,7 @@ public class Exercises {
 
         //Encapsulation Exercise
         EncapsulationExample encapsulate = new EncapsulationExample();
+        int ages = scanner.nextInt();
 
 }
 }
