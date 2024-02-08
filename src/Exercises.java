@@ -228,5 +228,7 @@ public class Exercises {
         System.out.println("Name of person is: "+name);
         System.out.println("Age of person is: "+gettersAndSetters.getAge());
 
+        //Encapsulation Exercise
+
 }
 }
