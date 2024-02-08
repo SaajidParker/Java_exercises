@@ -229,6 +229,7 @@ public class Exercises {
         System.out.println("Age of person is: "+gettersAndSetters.getAge());
 
         //Encapsulation Exercise
+        EncapsulationExample encapsulate = new EncapsulationExample();
 
 }
 }
