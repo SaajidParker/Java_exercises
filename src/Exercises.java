@@ -249,7 +249,7 @@ public class Exercises {
         //Trying the overloadding methods for different parameters
         Overloading overload = new Overloading();
         //Getting user input
-        s
+        System.out.println("Example of method Overloading:");
         System.out.println("Please enter an integer:");
         int firstoverload = scanner.nextInt();
         System.out.println( "Please enter a double value:");
