@@ -240,7 +240,7 @@ public class Exercises {
 
         //Overloading and Overriding
         //Original method for animal
-        System.out.println();
+        System.out.println("Example of method Overriding:");
         Overriding.Animal animal = new Overriding.Animal();
         animal.makeSound();
         //Overriding the method to display different output
@@ -249,6 +249,7 @@ public class Exercises {
         //Trying the overloadding methods for different parameters
         Overloading overload = new Overloading();
         //Getting user input
+        s
         System.out.println("Please enter an integer:");
         int firstoverload = scanner.nextInt();
         System.out.println( "Please enter a double value:");
