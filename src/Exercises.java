@@ -245,6 +245,8 @@ public class Exercises {
         //Overriding the method to display different output
         Overriding.Cat c = new Overriding.Cat();
         c.makeSound();
+        //Trying the overloadding methods for different parameters
+        Overloading overload = new Overloading();
 
 
 }
