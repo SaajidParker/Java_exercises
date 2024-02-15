@@ -5,7 +5,7 @@ public class Exercises {
     public static void main(String[] args){
         //Initializing scanner to be implemented in all the method classes
         Scanner scanner = new Scanner(System.in);
-
+/*
         // String Challenge
         StringChallengeOne call = new StringChallengeOne();
         String printing;
@@ -237,6 +237,13 @@ public class Exercises {
         encapsulate.setAge(ages);
         //getting changed variable in the output with getter method
         System.out.println("The age that has been set is: "+encapsulate.getAge());
+*/
+        //Overloading and Overriding
+        //Original
+        Overriding.Animal a = new Overriding.Animal();
+        a.makeSound();
+        Overriding.Cat c = new Overriding.Cat();
+        c.makeSound();
 
 }
 }
