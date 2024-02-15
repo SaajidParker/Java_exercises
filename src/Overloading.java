@@ -4,11 +4,11 @@ public class Overloading {
     Another name for method overloading is compile-time polymorphism.*/
 
     //complete the method for integer value type
-    public static int doubleTheValue(int a) {
+    public int doubleTheValue(int a) {
         return a*2;
     }
     //overload the method for double value type
-    public static double doubleTheValue(double b) {
+    public double doubleTheValue(double b) {
         return b*2;
     }
 }
