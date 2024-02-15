@@ -239,9 +239,10 @@ public class Exercises {
         System.out.println("The age that has been set is: "+encapsulate.getAge());
 */
         //Overloading and Overriding
-        //Original
+        //Original method for animal
         Overriding.Animal a = new Overriding.Animal();
         a.makeSound();
+        //Overriding the method to display different output
         Overriding.Cat c = new Overriding.Cat();
         c.makeSound();
 
