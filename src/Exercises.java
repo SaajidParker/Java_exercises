@@ -240,8 +240,8 @@ public class Exercises {
 
         //Overloading and Overriding
         //Original method for animal
-        Overriding.Animal a = new Overriding.Animal();
-        a.makeSound();
+        Overriding.Animal animal = new Overriding.Animal();
+        animal.makeSound();
         //Overriding the method to display different output
         Overriding.Cat c = new Overriding.Cat();
         c.makeSound();
