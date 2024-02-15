@@ -256,7 +256,7 @@ public class Exercises {
         double secondoverload = scanner.nextDouble();
         System.out.println("First method using integer values:");
         System.out.println("Doubling the value is: "+overload.doubleTheValue(firstoverload));
-        System.out.println("Second method using integer values:");
+        System.out.println("Second method using double values:");
         System.out.println("Doubling the value is: "+overload.doubleTheValue(secondoverload));
 
 }
