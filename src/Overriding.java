@@ -13,5 +13,16 @@ public class Overriding {
 - If a method cannot be inherited, it cannot be overridden
 
 - Constructors cannot be overridden*/
+    static class Animal{
+        public void makeSound(){
+            System.out.println("Grr....");
+        }
+    }
 
+    static class Cat extends Animal{
+        @Override
+        public void makeSound() {
+            System.out.println("Meow");
+        }
+    }
 }
